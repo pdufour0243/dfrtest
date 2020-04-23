@@ -1,0 +1,383 @@
+body
+{
+    font-family: fantasy;
+    color: #3d3d3d;
+
+}
+
+p
+{
+    line-height: 1.5em;
+}
+
+
+
+a{
+    color:#db3b01;
+}
+header,
+main,
+footer
+{
+  padding:5px;
+    
+}
+
+#menu-haut 
+ {
+     background-color:rgba(0, 0, 0, 0.774);
+    
+     padding-left: 1%;
+     padding-right: 1%;
+    
+ }
+
+#menu-haut a
+ {
+     color: white;
+     font-size: 0.9em;
+     text-decoration: none;
+ }
+
+#menu-haut a:hover,
+#menu-gauche a:hover
+{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+
+
+header
+{
+    background-image: url(../images/bg-1200.jpg);
+    background-image: url(../images/entete2.jpg);
+    min-height: 250px;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: right;
+    background-color:black;
+    padding: 1em;
+    color:white;
+    font-size: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+
+
+#menu-haut ul,
+#menu-gauche ul li
+{
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+#menu-haut ul li
+{
+
+    float:left;
+    padding-right: 2%;
+    list-style: none;
+    
+}
+
+
+#menu-haut ul 
+{
+
+    margin-top:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#menu-gauche ul
+{
+    margin-left: 0px;
+    padding-left:10%;
+    
+}
+
+#menu-gauche a
+{
+   font-size: 1.2em;
+   text-decoration: none;
+   color: #db3b01;
+
+}
+
+main, footer
+{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer
+{
+    background-color:#db3b01;
+    color: white;
+    justify-content: right;
+}
+
+footer a
+{
+    color:white
+}
+
+
+
+
+#contenu
+{
+    width: 100%;
+}
+
+.auteur
+{
+    text-align: right;
+}
+
+body
+{
+    margin: auto;
+}
+
+#page
+{
+    width: 800px;
+    margin: auto;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo img
+{
+    width: 300px;
+  
+}
+
+main
+{
+    padding-top: 20px;
+padding-bottom: 30px;
+min-height: 500px;
+}
+
+article .article-intro
+{
+    font-size: 0.8em;
+}
+
+.nouvelles article
+{
+    width: 42%;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: left;
+    background-color: rgba(200,200,200,0.1);
+    padding: 15px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 10px 0px #888;
+
+}
+
+.readmore
+{
+   float: right;
+   text-decoration: none;
+}
+
+a.readmore:hover
+{
+    text-decoration: underline;
+}
+
+.acteurs
+{
+   
+}
+
+.acteur
+{
+  
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  
+}
+figure img
+{
+    width: 100%;
+}
+
+figure
+{
+   margin: 2px;
+}
+figcaption
+{
+    text-align: center;
+    font-style: italic;
+    border-top: 1px solid gray;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.bio
+{
+    display: flex;
+}
+
+.bio-desc,
+.bio-image
+{
+  width: 50%;
+}
+
+.bio-desc
+{
+    padding-right: 20px;
+}
+
+.bio-image img
+{
+    border-radius: 30px;
+    width:100%;
+}
+
+.filmographie
+{
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+}
+.film
+{
+    width: 150px;
+}
+
+.film img
+{
+    width: 150px;
+}
+
+.col2
+{
+    width: 50%;
+    float: left;
+    min-width: 350px;
+}
+.col4
+{
+    float: left;
+    width: 25%;
+}
+
+
+.personnage
+{
+    text-align: center;
+}
+.personnage img
+{
+    width: 80%;
+}
+
+/* Formulaire DÉBUT */
+.checkbox-list,
+.radio-list
+{
+  
+    overflow: hidden;
+    padding-left: 0px;
+    
+}
+
+.checkbox-list li
+{
+    list-style-type: none;
+ 
+}
+
+.clear
+{
+    clear: both;
+}
+
+input[type=text],
+select,
+textarea
+{
+    
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+}
+
+input[type=text]
+{
+    width: 300px;
+}
+
+input[type=reset],
+input[type=submit]
+{
+    padding: 5px;
+}
+/* Formulaire FIN */
+
+
+
+
+/* ANIMATION */
+
+@keyframes monanimation {
+
+    From{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateX(0px);
+    }
+
+    40% {
+        transform: translateX(150px);
+    }
+
+    60% {
+        transform: translateX(150px);
+        transform: scale(1.7);
+        transform: skewY(10deg);
+    }
+
+    80% {
+     
+        transform: scale(2.4);
+
+    }
+
+    100% {
+     
+        transform: scale(2.4);
+
+    }
+   
+}
+
+div.animate:hover
+{
+    animation: monanimation 6s; 
+  
+}
+
+
+
+
