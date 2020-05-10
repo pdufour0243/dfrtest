@@ -1,8 +1,10 @@
-body
+﻿body
 {
-    font-family:Arial, Helvetica, sans-serif;
-    color: #3d3d3d;
-
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3d3d3d;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 p
@@ -13,8 +15,7 @@ p
 
 
 a{
-    color:#db3b01;
-}
+    }
 header,
 main,
 footer
@@ -143,15 +144,16 @@ footer a
 body
 {
     margin: auto;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #page
 {
     width: 800px;
     margin: auto;
-    background-image: url("../images/background.png");
-    background-size: cover;
-    background-attachment: fixed;
+
 }
 
 .logo img
@@ -287,7 +289,7 @@ figcaption
     width: 80%;
 }
 
-/* Formulaire DÉBUT */
+/* Formulaire DÃ‰BUT */
 .checkbox-list,
 .radio-list
 {
@@ -376,6 +378,12 @@ div.animate:hover
 {
     animation: monanimation 6s; 
   
+}
+
+
+
+
+body {
 }
 
 
